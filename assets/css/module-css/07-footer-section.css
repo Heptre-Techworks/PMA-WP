@@ -445,7 +445,7 @@
 
 .footer-area-img-box {
     position: absolute;
-    bottom: -20px;
+    bottom: -1px;
     right: 0;
     z-index: -1;
 }

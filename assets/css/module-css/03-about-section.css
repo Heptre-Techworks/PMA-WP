@@ -7,7 +7,7 @@
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 120px 0 120px;
+    padding: 120px 0 20px;
     z-index: 10;
 }
 
@@ -22,7 +22,6 @@
     position: relative;
     display: block;
     overflow: hidden;
-    padding-top: 70px;
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -41,7 +40,6 @@
 
 .about-style1-img-box ul li:last-child {
     width: 44.91%;
-    margin-top: -70px;
 }
 
 .about-style1-img-box__single {
@@ -564,6 +562,7 @@
     position: relative;
     display: block;
     padding-top: 14px;
+    font-size: 5px;
 }
 
 .about-style3-content-box .bottom-text ul {
