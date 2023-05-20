@@ -24,7 +24,8 @@
   --thm-font: 'Barlow', sans-serif;
   --thm-font-2: 'Roboto', sans-serif;
   --thm-font-3: 'Yantramanav', sans-serif;
-  --thm-base: #d90429;
+  /* --thm-base: #d90429; */
+  --thm-base: #2cb9f5;
   --thm-base-rgb: 217, 4, 41;
   --thm-gray: #444444;
   --thm-gray-rgb: 68, 68, 68;
@@ -716,9 +717,12 @@ select:focus {
   opacity: 1;
   transform: scaleX(1.0);
   transition-duration: 800ms;
-  background-image: -moz-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%);
+  /* background-image: -moz-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%); */
+  background-image: -moz-linear-gradient(0deg, rgb(44, 165, 245) 0%, rgb(44, 175, 245) 57%, rgb(44, 175, 245) 100%);
+  /* background-image: -webkit-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%); */
+  background-image: -webkit-linear-gradient(0deg, rgb(44, 165, 245) 0%, rgb(44, 175, 245) 57%, rgb(44, 175, 245) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(44, 165, 245) 0%, rgb(44, 175, 245) 57%, rgb(44, 175, 245) 100%);
+  /* background-image: -ms-linear-gradient(0deg, rgb(217, 4, 41) 0%, rgb(217, 24, 23) 57%, rgb(217, 44, 4) 100%); */
   z-index: -1;
 }
 
@@ -4248,7 +4252,7 @@ select:focus {
   bottom: 0;
   right: 0;
   height: 50%;
-  background-color: #141e32;
+  /* background-color: #141e32; */
   z-index: -1;
 }
 
