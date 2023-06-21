@@ -254,7 +254,7 @@
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a>button {
     width: 30px;
     height: 30px;
-    background-color: var(--thm-black);
+    /* background-color: var(--thm-black); */
     border: none;
     outline: none;
     color: #fff;
